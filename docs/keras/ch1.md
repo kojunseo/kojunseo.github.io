@@ -1,3 +1,11 @@
+---
+title: Ch1. Basic Functions
+layout: default
+parent: Keras Crush Course
+nav_order: 1
+---
+
+
 # Ch.1 Basic Functions
 ## 0. Keras vs Tensorflow?
     1. 케라스는 파이썬으로 작성된 고수준의 신경한 API

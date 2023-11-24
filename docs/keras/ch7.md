@@ -1,3 +1,9 @@
+---
+title: Ch7. Subclass API Method
+layout: default
+parent: Keras Crush Course
+nav_order: 6
+---
 # Ch7. Subclass API Method
 * 모델을 정의하는 마지막 방법으로 keras의 모델클래스에서 상속을 받아 정의하는 방법이 있다.
 * 뒤에 배울, tf.function을 통해 fit 자체의 수정이 가능해 용이하다.

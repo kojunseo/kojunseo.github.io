@@ -1,3 +1,10 @@
+---
+title: Ch9. Model Training 1 - compile, fit
+layout: default
+parent: Keras Crush Course
+nav_order: 8
+---
+
 # Ch9. Model Training 1 - compile, fit
 ## Model Fit
 * 케라스에서는 fit을 통해 훈련을 매우 쉽게 가능하도록 했다.

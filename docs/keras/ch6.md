@@ -1,4 +1,11 @@
-# Ch5 Funtional Model of Keras
+---
+title: Ch6. Funtional Model of Keras
+layout: default
+parent: Keras Crush Course
+nav_order: 5
+---
+
+# Ch6 Funtional Model of Keras
 * Sequential Model의 경우, Sequential을 통해 자동으로 빌드를 하지만, Funtional의 경우 아니다.
 * 총 두 가지의 스텝이 필요하다.
     + 레이어들을 output으로 이어준다.

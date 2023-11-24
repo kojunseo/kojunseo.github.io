@@ -1,3 +1,10 @@
+---
+title: Ch4. Basic Keras Layers
+layout: default
+parent: Keras Crush Course
+nav_order: 3
+---
+
 # ch4 - Basic Keras Layers
 
 ## Linear Based Layers

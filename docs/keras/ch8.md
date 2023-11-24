@@ -1,3 +1,10 @@
+---
+title: Ch8. Model of Keras Application
+layout: default
+parent: Keras Crush Course
+nav_order: 7
+---
+
 # Ch8. Model of Keras Application
 ## Introduction
 * Keras에서는 Imagenet으로 여러 CNN기반의 모델을 훈련시켜 가중치를 초기화한 모델을 제공한다.

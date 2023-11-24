@@ -1,5 +1,5 @@
 ---
-title: Keras Basic
+title: Keras Crush Course
 layout: default
 has_children: true
 nav_order: 3

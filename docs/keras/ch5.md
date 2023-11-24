@@ -1,3 +1,10 @@
+---
+title: Ch5. Sequential Model of Keras
+layout: default
+parent: Keras Crush Course
+nav_order: 4
+---
+
 # Ch5 Sequential Model of Keras
 > A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
 * 파이썬의 Sequential 모델의 경우, 인풋과 아웃풋이 하나씩 존재하는 모델에 레이어를 쌓아주기 적합한 방법이다.

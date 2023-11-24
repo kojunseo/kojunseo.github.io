@@ -1,8 +1,9 @@
 ---
-title: L1 Start the Mojo
-layout: Mojo
+title: Mojo
+layout: default
 has_cildren: true
 nav_order: 2
+permalink: /docs/mojo
 ---
 
 
@@ -18,11 +19,6 @@ nav_order: 2
 * Mojo는 계속 업데이트되며 발전되기 때문에, 최근의 문법과 어긋나는 부분이 생길 수 있습니다. 또한 아직 초기 언어이기 때문에 불안정한 부분도 다수 존재합니다. 아직 구현되지 않은 부분들은 추후에 업데이트 됩니다.
 * 그러므로 본 강의는 Mojo를 따라 치기보단, 각 문법에 담긴 철학과 파이썬과의 차별점을 분석하며 들어보시는 걸 추천합니다. 그럼으로, 파이썬 문법에 어느정도 익숙하신 분들이 들으시는 걸 추천합니다. (댓글로 파이썬에만 관련한 질문은 받지 않을 예정입니다. Mojo와 Python에 차이점과 관련한 질문, 오류 수정 등은 양팔 벌려 환영합니다.)
 
-* **Season1** : 시즌1은 본 강의를 포함하여 총 9개의 강의(L1~L9)가 준비되어 있으며, Mojo의 기본적인 문법(fn, struct, ownership, python 연동)을 같이 확인해볼 예정입니다. 각 강의는 10분 이하로 진행됩니다. (2023.11월 ~ 2023.12월)
-* **Season1 Bonus :** 시즌 1 보너스는 총 2개의 강의(L10, L11)가 진행될 예정입니다. Season 1에서 다룬 내용을 기반으로 간단하게 Mojo로 자료 구조와 알고리즘을 구현합니다. 각 강의는 15분 이하로 진행됩니다. (2024.01월)
-* **Season2 :** 시즌 2는 총 N개의 강의(L12~)가 진행될 예정입니다. Mojo의 Season1을 넘어선 심화적인 문법(SIMD, Pointer, 파라미터 오버로딩, Autotune, Lifecycle, Mojo내 핵심 모듈 등)을 다룹니다. Mojo 문법이 업데이트됨에 따라 무제한적으로 강의가 만들어질 수 있습니다. 
-* **Season2 Bonus :** 시즌2에서 다룬 내용을 바탕으로 다양한 기능을 구현해봅니다.
-
 ## Mojo의 프로그램 철학 
 https://docs.modular.com/mojo/why-mojo.html
 
@@ -30,4 +26,5 @@ https://docs.modular.com/mojo/why-mojo.html
  2. 파이썬의 단점인 느린 속도를 보완 (Compiler, MLIR, LLVM, Parallelism)
  **--> 파이썬의 단점을 보완하면서 파이썬의 장점을 그대로 가져오자!**
 
-
+## 실습
+https://colab.research.google.com/drive/1d6ucF7q9EDn1Tbeq6dlMMweSu8mwUWec?usp=sharing

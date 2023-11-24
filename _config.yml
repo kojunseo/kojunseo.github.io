@@ -1,8 +1,14 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Mojo가 모조
+description: Mojo를 기초부터 배워봅시다
+url: https://kojunseo.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
-url: https://just-the-docs.github.io
+# repository: just-the-docs/just-the-docs # for github-metadata
+# theme: just-the-docs
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Youtube 강의":
+    - "https://www.youtube.com/channel/UCCaunu3Cv09ZCDxU13Gx3Hg"
+
+enable_copy_code_button: true
+
+footer_content: "Copyright &copy; 2023 Junseo Ko. 본 내용은 모두 제가 작성한 도큐먼트입니다. 무단 퍼가기와 재생산을 금지합니다. \n문의: piglets.frizzle0v@icloud.com"

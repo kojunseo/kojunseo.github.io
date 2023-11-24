@@ -1,35 +1,25 @@
 ---
-title: Home
+title: Mojo
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## Mojo가 무엇인가?
+1. 파이썬은 인공지능, 데이터분석/시각화, 백엔드 개발 등 다양한 분야에서 사용된 언어
+2. 그러나 파이썬의 느린 속도, 다양한 코드 스타일 등은 계속해서 문제로 거론되어 왔으며, 이를 해결하기 위해 Cython, Pypi, JIT Compiler 등 다양한 방법이 수행되어 왔지만 파이썬 자체의 해결책이 아님
+3. Mojo는 이를 해결하기 위해 파이썬과의 높은 호환성을 보이면서 동시에 정적인 요소를 많이 추가하여 속도를 최대 35,000배까지 향상(Modular사의 주장)시킨 언어임
+4. 파이썬과 코드가 유사하여 진입이 쉬우나, 깊에 들어가다보면 어려운 내용이 많음
+5. 최근에는 Ubuntu 20.04, Mac(Silicon)을 지원하며 로컬에서 돌아갈 수 있게 됨에 따라 많은 관심을 받게 됨.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## 본 강의를 시작하며 🔥
+* 본 강의는 대학교 시절부터 대학원, 회사에 들어온 이후로 총 5년간 파이선을 사용해오며, 최소 50개 이상의 파이썬 프로젝트를 경험한 개발자인 저 **고준서**가 Mojo에 관심을 보이며 도큐먼트를 바탕으로 꼼꼼하게 분석하여 이를 녹여낸 강의입니다.
+* Mojo는 계속 업데이트되며 발전되기 때문에, 최근의 문법과 어긋나는 부분이 생길 수 있습니다. 또한 아직 초기 언어이기 때문에 불안정한 부분도 다수 존재합니다. 아직 구현되지 않은 부분들은 추후에 업데이트 됩니다.
+* 그러므로 본 강의는 Mojo를 따라 치기보단, 각 문법에 담긴 철학과 파이썬과의 차별점을 분석하며 들어보시는 걸 추천합니다. 그럼으로, 파이썬 문법에 어느정도 익숙하신 분들이 들으시는 걸 추천합니다. (댓글로 파이썬에만 관련한 질문은 받지 않을 예정입니다. Mojo와 Python에 차이점과 관련한 질문, 오류 수정 등은 양팔 벌려 환영합니다.)
 
-More specifically, the created site:
+## Mojo의 프로그램 철학 
+https://docs.modular.com/mojo/why-mojo.html
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+ 1. 파이썬과의 높은 호환성 (Superset of Python)
+ 2. 파이썬의 단점인 느린 속도를 보완 (Compiler, MLIR, LLVM, Parallelism)
+ **--> 파이썬의 단점을 보완하면서 파이썬의 장점을 그대로 가져오자!**
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate

@@ -1,7 +1,7 @@
 ---
 title: Keras Basic
 layout: default
-has_cildren: true
+has_children: true
 nav_order: 3
 ---
 
@@ -15,26 +15,25 @@ nav_order: 3
 * keras==2.6.0
 
 ## Objectives
-* [Ch1. Activations, Metrics, Optimizer and Loss Function](https://github.com/KorKite/study-keras-basic/blob/main/contents/ch1)
+* [Ch1. Activations, Metrics, Optimizer and Loss Function](https://kojunseo.github.io/docs/keras/ch1)
 * ~~[Ch2. Bayesian Model Space]~~
-* [Ch3. Basic Tensorflow](https://kojunseo.github.io/keras/ch3)
-* [Ch4. Basic Tensorflow Layers](https://kojunseo.github.io/keras/ch4)
-* [Ch5. Sequential Model](https://kojunseo.github.io/keras/ch5)
-* [Ch6. Functional API Model](https://kojunseo.github.io/keras/ch6)
-* [Ch7. Subclass API Model](https://kojunseo.github.io/keras/ch7)
-* [Ch8. Model of Keras Application](https://kojunseo.github.io/keras/ch8)
-* [Ch9. Model Training 1 - compile, fit](https://kojunseo.github.io/keras/ch9)
-* [Ch10. Callbacks](https://kojunseo.github.io/keras/ch10)
-* [Ch11. Data Generator - flow, from_directory](https://kojunseo.github.io/keras/ch11)
-* [Ch12. Custom Data Loader 1 - Pre-load Data](https://kojunseo.github.io/keras/ch12)
-* [Ch13. Custom Data Loader 2 - Batch-load Data](https://kojunseo.github.io/keras/ch13)
-* [Ch14. Model Training 2 - gradientTape](https://kojunseo.github.io/keras/ch14)
-* [Ch15. MIL - timedistributed layer](https://kojunseo.github.io/keras/ch15)
-* [Ch16. Custom Callbacks](https://kojunseo.github.io/keras/ch16)
-* [Ch17. Custom Layers](https://kojunseo.github.io/keras/ch17)
-* [Ch18. Custom Loss, Custom Metric](https://kojunseo.github.io/keras/ch18)
-* [Ch19. Special (History, Save, etc)](https://kojunseo.github.io/keras/ch19)
-* [Assignments](https://github.com/KorKite/study-keras-basic/blob/main/contents/assignment.md)
+* [Ch3. Basic Tensorflow](https://kojunseo.github.io/docs/keras/ch3)
+* [Ch4. Basic Tensorflow Layers](https://kojunseo.github.io/docs/keras/ch4)
+* [Ch5. Sequential Model](https://kojunseo.github.io/docs/keras/ch5)
+* [Ch6. Functional API Model](https://kojunseo.github.io/docs/keras/ch6)
+* [Ch7. Subclass API Model](https://kojunseo.github.io/docs/keras/ch7)
+* [Ch8. Model of Keras Application](https://kojunseo.github.io/docs/keras/ch8)
+* [Ch9. Model Training 1 - compile, fit](https://kojunseo.github.io/docs/keras/ch9)
+* [Ch10. Callbacks](https://kojunseo.github.io/docs/keras/ch10)
+* [Ch11. Data Generator - flow, from_directory](https://kojunseo.github.io/docs/keras/ch11)
+* [Ch12. Custom Data Loader 1 - Pre-load Data](https://kojunseo.github.io/docs/keras/ch12)
+* [Ch13. Custom Data Loader 2 - Batch-load Data](https://kojunseo.github.io/docs/keras/ch13)
+* [Ch14. Model Training 2 - gradientTape](https://kojunseo.github.io/docs/keras/ch14)
+* [Ch15. MIL - timedistributed layer](https://kojunseo.github.io/docs/keras/ch15)
+* [Ch16. Custom Callbacks](https://kojunseo.github.io/docs/keras/ch16)
+* [Ch17. Custom Layers](https://kojunseo.github.io/docs/keras/ch17)
+* [Ch18. Custom Loss, Custom Metric](https://kojunseo.github.io/docs/keras/ch18)
+* [Ch19. Special (History, Save, etc)](https://kojunseo.github.io/docs/keras/ch19)
 <img src="figures/thumnail.png" width=500>
 
 

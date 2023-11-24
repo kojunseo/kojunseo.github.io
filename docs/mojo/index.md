@@ -1,7 +1,7 @@
 ---
 title: Mojo가 모조?
 layout: default
-has_cildren: true
+has_children: true
 nav_order: 2
 ---
 

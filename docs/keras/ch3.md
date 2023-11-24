@@ -43,7 +43,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]= "1"
 다음 코드를 통해 특정 GPU만을 활용하도록 할 수 있다.
 
 ### GPU Usage 2 (New)
-* (tf_alloc)[https://github.com/KorKite/tf_alloc]이라는 패키지를 활용하면 더 쉽게 특정 GPU를 특정 비율만큼만 할당할 수 있다.
+* [tf_alloc](https://github.com/KorKite/tf_alloc)이라는 패키지를 활용하면 더 쉽게 특정 GPU를 특정 비율만큼만 할당할 수 있다.
 ```python
 from tf_alloc import allocate
 allocate(1, 0.5) # 1번 GPU를 0.5만큼만 사용하겠다는 코드

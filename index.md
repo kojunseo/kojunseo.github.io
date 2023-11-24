@@ -1,7 +1,9 @@
 ---
-title: Who is me?
+title: 소개
 layout: home
 ---
+## 소개합니다.
+* 이름: 고준서 (Junseo Ko)
 
 ### 학력
 - 🎒 성균관대학교 인공지능융합전공 (2018~2021)
@@ -33,13 +35,31 @@ layout: home
 ### 디자이너
 - [한빛내과의원][hb_link] 로고 [디자인][hblogo]
 
-## Publications (논문)
-| Title | Journal or Conference | Authorship | Year | 
-| --------- | ----------- | ------- | ------- |
-| Distinguishing retinal angiomatous proliferation from polypoidal choroidal vasculopathy with a deep neural network based on optical coherence tomography. | Scientific Reports (SCI, Q1) | 2nd Author | 2021 |
-| Trafficformer: A Transformer-based Traffic Predictor," IEEE Consumer Technology Society | IEEE Consumer Technology Society (CTSoc) | 1st Author | 2021 |
-| Classifying central serous chorioretinopathy subtypes with a deep neural network using optical coherence tomography images: A cross-sectional study | Scientific Reports (SCI, Q1) | 2nd Author | 2022 |
-| Assessing Central Serous Chorioretinopathy with Deep Learning and Multiple Optical Coherence Tomography Images |  Scientific Reports (SCI, Q1) | 1st Author | 2022 |
-| Classifying Neovascular Age-related Macular Degeneration with a Deep Convolutional Neural Network based on Optical Coherence Tomography Images | Scientific Reports (SCI, Q1) | Author | 2022 |
-| (🏆 우수논문 선정)음성합성 훈련을 위한 형태소 분석 기반 한국어 Grapheme-to-Phoneme 변환기 | 한국정보통신학회 추계학술대회 | 1st Author | 2023 |
 
+## Languages and Tools
+[<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698710-c4cec900-4282-11eb-9f13-b5477cf503bf.png">][Youtube Link]
+[<img align = "left" width="26px" src="https://store-images.s-microsoft.com/image/apps.6287.14514296758674918.de7d5037-39e7-4c0a-b6bb-7346f5e3787c.8099b1a2-2ae0-41d0-8b74-5ace1c2d9a8a?mode=scale&q=90&h=200&w=200&background=%230078D7">][scholar]
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698864-f1cfab80-4283-11eb-90a5-d53f95851daf.png">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698869-fdbb6d80-4283-11eb-8726-2af4048d8a15.jpeg">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698881-10ce3d80-4284-11eb-80a8-b8ffef6787ac.png">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698893-1cb9ff80-4284-11eb-87c9-040e0302dcbe.png">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698915-3b1ffb00-4284-11eb-9db1-b4303a38c479.png">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698916-44a96300-4284-11eb-9ef1-c1546bb2b721.png">
+<img align = "left" width="26px" src="https://user-images.githubusercontent.com/50725139/102698918-48d58080-4284-11eb-91e7-72c255d9fbb7.png">
+
+
+
+[DSAIL]: https://sites.google.com/view/datasciencelab/ "Go DSAIL"
+[scholar]: https://scholar.google.com/citations?user=qt7vHIMAAAAJ&hl=ko&oi=ao
+[Youtube link]: https://www.youtube.com/channel/UCCaunu3Cv09ZCDxU13Gx3Hg?view_as=subscriber
+[appdev]: https://github.com/KorKite/SubwaySeat_APP
+[learning]: https://github.com/KorKite/Offline-Calendar-Python-Tkinter
+[bookathon]: https://github.com/KorKite/bookathon2021-SKKU-Team-COCO
+[dongmen]: https://github.com/KorKite/dongguk-ontenttion-mentoring
+[codeep]: https://github.com/KorKite/codeep2021-Team11
+[raondata]: https://www.raondata.ai
+[hblogo]: https://github.com/kojunseo/DesignerKo/blob/main/habit_medical.png
+[hb_link]: https://hanbitmedical.imweb.me/index
+[stdsss]:https://success.skku.edu/success/community/notice.do?mode=view&articleNo=35527&article.offset=0&articleLimit=10
+[best2022_2]:https://xai.skku.edu/skkuaai/notice.do?mode=view&articleNo=144520&article.offset=0&articleLimit=10
+[best_paper]:https://kiice.org/137

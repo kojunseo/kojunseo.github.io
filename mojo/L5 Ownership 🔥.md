@@ -1,0 +1,70 @@
+---
+title: L5 Ownership
+layout: home
+---
+
+*이전 강의인 [[L4 fn 🔥]]을 들어야 이 강의를 듣는 것이 수월합니다.*
+## 소유권이란 무엇인가?
+* Mojo는 Rust언어의 영향을 받아 **소유권 개념**이 존재한다.
+* 소유권은 메모리의 안정성을 위해 필요한 개념으로 파이썬보다 변수의 변경을 엄격하게 관리하여 속도와 안정성을 높인다.
+### 1. `borrowed` *(default)*
+* immutable(불변) => c++의 const&와 유사
+* 빌려주는 개념으로, 외부의 변수를 복사하지 않고 그대로 읽어오나 함수 내부에서도 변경/수정은 불가능하다.
+
+```python
+fn add_num1(borrowed a: Int, b: Int) -> Int:
+	# a = a + 1 # error 
+	# -> immutable하기 때문에 변경 불가능
+	return a + b # 사용은 가능
+```
+```python
+let a = 1 # let이면 inout을 사용해도 변경 불가능
+var b = 2 # inout을 통해 fn 내에서 변경하기 위해 var
+let c = add_num1(a, b)
+
+print(a) # 1
+print(b) # 2
+print(c) # 3
+```
+### 2. `inout`
+* mutable(가변)
+* 함수에게 변경이 가능하도록 변수를 전달하고 싶을 때 사용한다.
+* 단, 함수 내부에서 inout을 통해 가져온 값을 변경하면, 외부의 원 변수도 변경된다. (복사하지 않기 때문)
+
+```python
+fn add_num2(inout a: Int, b: Int) -> Int:
+	a = a + 1 # ok
+	# 외부의 원 변수도 변경된다.
+	return a + b
+```
+
+```python
+let a = 1 # let이면 inout을 사용해도 변경 불가능
+var b = 2 # inout을 통해 fn 내에서 변경하기 위해 var
+
+let d = add_num2(a, b)
+print(a) # 2
+print(d) # 4
+```
+#### Swap Variable Example
+```python
+fn swap(inout a: Int, inout b: Int):
+	let temp = a
+	a = b
+	b = temp
+```
+```python
+var a : Int = 1 
+var b : Int = 2
+
+swap(a, b)
+print(a) # 2
+```
+
+* def를 사용하면 외부의 값을 복사하여 함수 내로 가져오기 때문에, 내부에서 자유롭게 사용 가능하나, 속도가 느리고 값을 바꾸는데서 개발자의 실수가 발생할 가능성이 큼
+* fn을 통해 함수의 설계부터 변경가능/불가능한 외부값을 설정하고 이를 이용하면 더 안정적인 코딩이 가능함. (Rust의 철학)
+
+## 3. `owned`
+* transfer argument
+* exclusive ownership(독점 소유권)을 가지는 변수로, 함수에게 변수의 소유권을 넘겨주는 개념이다.
+* 위 개념은 Season2의 Pointer 파트에서 같이 설명될 예정이다.

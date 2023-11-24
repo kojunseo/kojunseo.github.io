@@ -1,0 +1,30 @@
+---
+title: L9 Python (Custom)
+layout: home
+---
+
+* 내가 직접 짠 코드도 불러올 수 있습니다.
+
+* 다음은 python🐍 (compare.py) 코드입니다.
+```python
+def do_compare(a, b):
+	if a > b:
+		return 1
+	elif a == b:
+		return 0
+	else:
+		return -1
+```
+
+* 다음은 Mojo의 코드입니다.
+```python
+from python import Python
+
+def main():
+	Python.add_to_path("./")
+	let compare = Python.import_module("compare")
+	let c = compare.do_compare(2, 3)
+	print(c) # -1
+```
+
+* 이런식으로 본인이 작성한 코드를 불러오는 것이 가능합니다.

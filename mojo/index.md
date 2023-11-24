@@ -1,3 +1,11 @@
+---
+title: L1 Start the Mojo
+layout: Mojo
+has_cildren: true
+nav_order: 2
+---
+
+
 ## Mojo가 무엇인가?
 1. 파이썬은 인공지능, 데이터분석/시각화, 백엔드 개발 등 다양한 분야에서 사용된 언어
 2. 그러나 파이썬의 느린 속도, 다양한 코드 스타일 등은 계속해서 문제로 거론되어 왔으며, 이를 해결하기 위해 Cython, Pypi, JIT Compiler 등 다양한 방법이 수행되어 왔지만 파이썬 자체의 해결책이 아님

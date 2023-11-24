@@ -26,4 +26,4 @@ https://docs.modular.com/mojo/why-mojo.html
  **--> 파이썬의 단점을 보완하면서 파이썬의 장점을 그대로 가져오자!**
 
 ## 실습
-https://colab.research.google.com/drive/1d6ucF7q9EDn1Tbeq6dlMMweSu8mwUWec?usp=sharing
+[Colab 실습](https://colab.research.google.com/drive/1d6ucF7q9EDn1Tbeq6dlMMweSu8mwUWec?usp=sharing)

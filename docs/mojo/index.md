@@ -1,9 +1,8 @@
 ---
-title: Mojo
+title: Mojo가 모조?
 layout: default
 has_cildren: true
 nav_order: 2
-permalink: /docs/mojo
 ---
 
 
